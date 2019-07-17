@@ -1,0 +1,375 @@
+﻿/* CSS RESET*/ /*reset css */
+html,body{
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+div{
+	position:relative;
+	display:block;
+}
+
+*:focus {
+    outline: none;
+}
+
+.clear{
+	clear:both;
+}
+
+
+/* CSS RESET ends*/
+
+
+body, html {
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.clearfix{
+    clear:both;
+}
+
+/*--- CONTAINER ALL PAGE ---------*/
+.containerMain{
+    width:100%;
+}
+/*--- CONTAINER ALL PAGE ENDS ----*/
+
+
+/*--- SECTION HERO ----------*/
+
+.sectionHero{
+    position:relative;
+    height:100%;
+    width:100%;    
+    background:url("images/Arkenea_Hero.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.containerHero{
+    height:100%;
+    width:75%;
+    margin:0 auto;
+    padding:110px;
+}
+.logo{
+    padding: 10px 16px;
+    cursor:pointer;
+}
+
+.navList{
+    display:inline-block;
+    list-style:none;
+    color:white;
+    font-size:20px;
+    text-align: center;
+    padding: 0 16px;
+    margin:0;
+}
+
+.navList:hover{
+    border-bottom:3px solid #d0493f;
+    padding-bottom:5px;
+    cursor:pointer;
+}
+
+/*Hamburger*/
+
+
+/*Hamburger*/
+
+
+h1{
+    position:absolute;
+    color:white;
+    top:310px;
+    font-size:60px;
+    line-height:70px;
+    font-weight:normal;
+}
+
+#p1{
+    font-size:24px;
+    color:white;
+    line-height:35px;
+    margin-top:490px;
+}
+
+#p2{
+    font-size:24px;
+    color:white;
+}
+
+input{
+    width:270px;
+    height:48px;
+    border:none;
+    border-bottom:2px solid #bebebe;
+    border-radius:5px;
+    font-size:16px;
+    margin-right:17px;
+}
+
+.inputPad{
+    padding-left:10px;
+}
+
+.redBtn{
+    color:white;
+    background-color:#f7564b;
+    border:none;
+    border-radius:5px;
+    border-bottom: 2px solid #d0493f;
+    width:180px;
+    height:52px;
+    font-size:16px;
+}
+
+.redBtn:hover{
+    background-color:#ba39f6;
+    border-bottom: 2px solid #650891;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.redBtnFirst{
+    padding:0;
+}
+
+/*--- SECTION HERO ENDS ---*/
+
+
+/*--- SECTION CONTENT FIRST --------*/
+.containerRest{
+    height:100%;
+    width:75%;
+    margin:0 auto;
+}
+
+.threeColumns{
+    height:100%;
+    width:100%;
+    margin-bottom: 115px;
+}
+
+.firstH2{
+    font-size:36px;
+    margin-top:93px;
+    margin-bottom: 46px;
+    color:#383838;
+}
+
+.shortHr{
+    color:gray;
+    width:70px;
+    height:2px;
+    background-color: #9a9a9a;
+    border:none;
+    margin:0;
+}
+
+.columns {
+    height:100%;
+    width: calc(94% / 3);
+    margin:57px 3% 0 0;
+}
+
+.columns:nth-child(3n) {
+    margin:60px 0 0 0;
+}
+
+.columnsImg{
+    width: 100%;
+}
+
+.p3{
+    display: block;
+    margin: 30px 0 28px;
+    text-align: left;
+    width: 85%;
+    font-size: 23.5px;
+    color:#bebebe;
+}
+
+a{
+    font-size:16.3px;
+    font-weight:bold;
+    color:#383838;
+    cursor:pointer;
+    text-decoration:none;
+}
+/*--- SECTION CONTENT FIRST ENDS ---*/
+
+
+/*--- SECTION CONTENT SECOND (OWL-CAROUSEL) --------*/
+.sectionContentSecond{
+    position:relative;
+    height:50%;
+    width:100%;
+}
+
+/* --- OWL SECTION ----*/
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -55px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fff;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #888888;
+}
+
+#owl-demo{
+    width:100%;
+}
+
+#owl-demo .item img{
+    display: block;
+    height:400px;
+    margin:0 auto;
+}
+/* --- OWL SECTION ENDS----*/
+
+.p4{
+    font-size:24px;
+    color:#fff;
+    text-align:center;
+    padding-top:20px;
+    letter-spacing: 3.5px;
+}
+
+.inner{
+    position:absolute; 
+    bottom:-70px; 
+    left:0; 
+    right:0; 
+    text-align:center;
+}
+/*--- SECTION CONTENT SECOND (OWL-CAROUSEL) ENDS ---*/
+
+
+/*--- SECTION CONTACT ---------------*/
+.sectionContact{
+    position:relative;
+    height:50%;
+    width:100%;
+    margin:60px auto;
+}
+
+.secondH2{
+    text-align:center;
+    font-size:30px;
+    margin:106px auto 52px ;
+}
+
+.contactMargin{
+    height: 357px;
+}
+
+.contactDivLeft{
+    width:50%;
+    height:340px;
+}
+
+label{
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+form>div{
+    margin-top:24px;
+}
+
+#name, #mail{
+    display:inline-block;
+    width:170px;
+    height:48px;
+    background-color:lightgrey;
+    margin:0 0 20px 0;
+}
+
+#name{
+    margin-right:3%;
+}
+
+#textField{
+    width:370px;
+    height:128px;
+    background-color:lightgrey;
+}
+
+.redBtnSecond{
+   margin-top:20px;
+}
+
+.contactDivRight{
+    width:50%;
+    height:340px;
+    text-align:right;
+}
+
+
+.address{
+    margin-bottom: 25px;
+    margin-top: 21px;
+    font-size:20px;
+    color:#888888;
+}
+
+.pStyle{
+    font-size:20px;
+    color:#888888;
+}
+
+.phoneStyle{
+    font-weight:normal;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    display: block;
+}
+
+.mailStyle{
+    font-weight:normal;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+}
+/*--- SECTION CONTACT ENDS -----------*/
+
+
+/*--- SECTION FOOTER -----------------*/
+.sectionFooter{
+    position:relative;
+    display:inline-block;
+    height:70px;
+    width:100%;
+    background-color:#333333;
+    color:white;
+    margin:0 auto;
+    font-size:15px;
+    bottom: -3px;
+}
+
+
+.pFoot{
+    top:30%;
+    transform:translateY(-50%);
+    position:relative;
+}
+/*--- SECTION FOOTER ENDS ------------*/
